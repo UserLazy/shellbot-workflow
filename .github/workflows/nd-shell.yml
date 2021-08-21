@@ -15,7 +15,7 @@ env:
 
 jobs:
   shellbot:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
 
     steps:
      - name: Checkouts
@@ -78,7 +78,7 @@ jobs:
           npm install
 
      - name: Run shell-bot server
-       timeout-minutes: 300
+       timeout-minutes: 340
        continue-on-error: true
        run: |
           cd shell-bot
