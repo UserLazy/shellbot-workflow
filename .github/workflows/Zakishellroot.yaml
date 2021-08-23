@@ -47,11 +47,6 @@ jobs:
           sudo apt install megatools
           cd /home/runner && curl -sL https://git.io/file-transfer | sh
 
-     - name: Install ErfanGSIs Requirements
-       run: |
-          git clone --recurse-submodules http://github.com/nnippon/gsitools /home/runner/ErfanGSIs
-          bash /home/runner/ErfanGSIs/setup.sh
-
      - name: Clone botgram shell-bot repo and Generate config
        run: |
           git clone https://github.com/nnippon/shell-bot --depth=1 shell-bot
