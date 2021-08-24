@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 env:
-  GitHubMail: "erlandyswor.d@gmail.com"
-  GitHubName: "Fakemailiii"
+  GitHubMail: "herokuwgn@gmail.com"
+  GitHubName: "Fakewgn"
   # GH_TOKEN >> Github Personal Access Token << In Repository Secrets
   # authToken >> Telegram Bot Token << In Repository Secrets
   # ownerID >> Telegram User/Admin owner ID << In Repository Secrets
